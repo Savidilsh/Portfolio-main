@@ -1,186 +1,274 @@
 const navLinks = [
-  { name: "Work", link: "#work" },
+  { name: "Projects", link: "#work" },
   { name: "Experience", link: "#experience" },
   { name: "Skills", link: "#skills" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Achievements", link: "#testimonials" },
 ];
 
 const words = [
-  { text: "Full-Stack Developer", imgPath: "/images/ideas.svg" },
-  { text: "Front-End Developer", imgPath: "/images/concepts.svg" },
-  { text: "Back-End Developer", imgPath: "/images/designs.svg" },
-  { text: "App Developer", imgPath: "/images/code.svg" },
-  { text: "UI/UX Designer", imgPath: "/images/ideas.svg" },
-  { text: "Full-Stack Developer", imgPath: "/images/concepts.svg" },
-  { text: "App Developer", imgPath: "/images/designs.svg" },
-  { text: "UI/UX Designer", imgPath: "/images/code.svg" },
+  { text: "Electronics Engineer", imgPath: "/images/ideas.svg" },
+  { text: "AI/ML Engineer", imgPath: "/images/concepts.svg" },
+  { text: "Computer Vision Expert", imgPath: "/images/designs.svg" },
+  { text: "Robotics Engineer", imgPath: "/images/code.svg" },
+  { text: "Embedded Systems Developer", imgPath: "/images/ideas.svg" },
+  { text: "Python Developer", imgPath: "/images/concepts.svg" },
+  { text: "Research Enthusiast", imgPath: "/images/designs.svg" },
+  { text: "Innovation Leader", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-  { value: 2, suffix: "+", label: "Years of Experience" },
-  { value: 3, suffix: "+", label: "Satisfied Clients" },
-  { value: 13, suffix: "+", label: "Completed Projects" },
-  { value: 100, suffix: "%", label: "Client Retention Rate" },
+  { value: 3, suffix: "+", label: "Years of Study" },
+  { value: 10, suffix: "+", label: "Major Projects" },
+  { value: 3, suffix: "", label: "Dean's List Semesters" },
+  { value: 3.96, suffix: "", label: "Cumulative GPA" },
 ];
 
 const logoIconsList = [
-  { imgPath: "/images/logos/company-logo-1.png" },
-  { imgPath: "/images/logos/company-logo-2.png" },
-  { imgPath: "/images/logos/company-logo-3.png" },
-  { imgPath: "/images/logos/company-logo-4.png" },
-  { imgPath: "/images/logos/company-logo-5.png" },
-  { imgPath: "/images/logos/company-logo-6.png" },
-  { imgPath: "/images/logos/company-logo-7.png" },
-  { imgPath: "/images/logos/company-logo-8.png" },
-  { imgPath: "/images/logos/company-logo-9.png" },
-  { imgPath: "/images/logos/company-logo-10.png" },
-  { imgPath: "/images/logos/company-logo-11.png" },
+  { imgPath: "/images/logos/university-moratuwa.png" },
+  { imgPath: "/images/logos/ieee.png" },
+  { imgPath: "/images/logos/aiesec.png" },
+  { imgPath: "/images/logos/richmond-college.png" },
+  { imgPath: "/images/logos/python.png" },
+  { imgPath: "/images/logos/opencv.png" },
+  { imgPath: "/images/logos/tensorflow.png" },
+  { imgPath: "/images/logos/arduino.png" },
+  { imgPath: "/images/logos/raspberry-pi.png" },
+  { imgPath: "/images/logos/matlab.png" },
+  { imgPath: "/images/logos/solidworks.png" },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: "/images/innovation.png",
+    title: "Innovation Focus",
+    desc: "Developing cutting-edge solutions in AI, robotics, and computer vision with practical applications.",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: "/images/leadership.png",
+    title: "Leadership Excellence",
+    desc: "Leading teams in complex engineering projects and academic initiatives with proven results.",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/images/research.png",
+    title: "Research Driven",
+    desc: "Conducting thorough research and implementing state-of-the-art technologies in real-world projects.",
   },
 ];
 
 const techStackIcons = [
-  { name: "HTML", category: "frontend", iconClass: "devicon-html5-plain colored" },
-  { name: "CSS", category: "frontend", iconClass: "devicon-css3-plain colored" },
-  { name: "JavaScript", category: "frontend", iconClass: "devicon-javascript-plain colored" },
-  { name: "React.js", category: "frontend", iconClass: "devicon-react-original colored" },
-  { name: "Tailwind CSS", category: "frontend", iconClass: "devicon-tailwindcss-plain colored" },
-  { name: "Three.js", category: "frontend", iconClass: "devicon-threejs-original colored" },
-  { name: "Node.js", category: "backend", iconClass: "devicon-nodejs-plain colored" },
-  { name: "Express.js", category: "backend", iconClass: "devicon-express-original colored" },
-  { name: "PHP", category: "backend", iconClass: "devicon-php-plain colored" },
-  { name: "MongoDB", category: "backend", iconClass: "devicon-mongodb-plain colored" },
-  { name: "MySQL", category: "backend", iconClass: "devicon-mysql-plain colored" },
-  { name: "RESTful APIs", category: "backend", iconClass: "devicon-rest-plain colored" },
+  // Programming Languages
   { name: "Python", category: "languages", iconClass: "devicon-python-plain colored" },
-  { name: "C", category: "languages", iconClass: "devicon-c-plain colored" },
-  { name: "Java", category: "languages", iconClass: "devicon-java-plain colored" },
   { name: "C++", category: "languages", iconClass: "devicon-cplusplus-plain colored" },
-  { name: "Kotlin", category: "languages", iconClass: "devicon-kotlin-plain colored" },
-  { name: "R", category: "languages", iconClass: "devicon-r-plain colored" },
-  { name: "Android Studio", category: "tools", iconClass: "devicon-android-plain colored" },
-  { name: "Eclipse", category: "tools", iconClass: "devicon-eclipse-plain colored" },
-  { name: "VS Code", category: "tools", iconClass: "devicon-vscode-plain colored" },
+  { name: "MATLAB", category: "languages", iconClass: "devicon-matlab-plain colored" },
+  { name: "C", category: "languages", iconClass: "devicon-c-plain colored" },
+  { name: "JavaScript", category: "languages", iconClass: "devicon-javascript-plain colored" },
+  
+  // AI/ML & Computer Vision
+  { name: "TensorFlow", category: "ai-ml", iconClass: "devicon-tensorflow-original colored" },
+  { name: "OpenCV", category: "ai-ml", iconClass: "devicon-opencv-plain colored" },
+  { name: "PyTorch", category: "ai-ml", iconClass: "devicon-pytorch-original colored" },
+  { name: "NumPy", category: "ai-ml", iconClass: "devicon-numpy-original colored" },
+  { name: "Pandas", category: "ai-ml", iconClass: "devicon-pandas-original colored" },
+  
+  // Embedded Systems & Hardware
+  { name: "Arduino", category: "embedded", iconClass: "devicon-arduino-plain colored" },
+  { name: "Raspberry Pi", category: "embedded", iconClass: "devicon-raspberrypi-plain colored" },
+  { name: "ESP32", category: "embedded", iconClass: "devicon-embeddedc-plain colored" },
+  
+  // Design & CAD
+  { name: "SolidWorks", category: "design", iconClass: "devicon-solidworks-plain colored" },
+  { name: "PCB Design", category: "design", iconClass: "devicon-pcb-plain colored" },
+  { name: "3D Modeling", category: "design", iconClass: "devicon-blender-original colored" },
+  
+  // Development Tools
   { name: "Git", category: "tools", iconClass: "devicon-git-plain colored" },
   { name: "GitHub", category: "tools", iconClass: "devicon-github-original colored" },
-  { name: "Postman", category: "tools", iconClass: "devicon-postman-plain colored" },
-  { name: "IntelliJ", category: "tools", iconClass: "devicon-intellij-plain colored" },
-  { name: "Figma", category: "tools", iconClass: "devicon-figma-plain colored" },
-  { name: "AWS", category: "tools", iconClass: "devicon-amazonwebservices-original colored" },
-  { name: "Firebase", category: "tools", iconClass: "devicon-firebase-plain colored" },
+  { name: "VS Code", category: "tools", iconClass: "devicon-vscode-plain colored" },
+  { name: "Linux", category: "tools", iconClass: "devicon-linux-plain colored" },
+  { name: "Docker", category: "tools", iconClass: "devicon-docker-plain colored" },
+  
+  // Communication Protocols
+  { name: "MQTT", category: "communication", iconClass: "devicon-mqtt-plain colored" },
+  { name: "IoT", category: "communication", iconClass: "devicon-iot-plain colored" },
 ];
 
-const techStackImgs = []; // No local images, using CDN icons instead
+const techStackImgs = []; // Using CDN icons instead
 
 const expCards = [
   {
-    review: "Pursuing a degree with a focus on software engineering, actively engaging in various programming languages and technologies.",
-    imgPath: "/images/sliit.png",
-    logoPath: "/images/logos/sliit.png",
-    title: "SLIIT - Bachelor of Science - BSc, Information Technology, specialize in Software Engineering",
-    date: "Jul 2023 - Jul 2027",
+    review: "Pursuing B.Sc. in Electronic & Telecommunication Engineering with exceptional academic performance. Specializing in Computer Vision, AI, Machine Learning, and Embedded Systems.",
+    imgPath: "/images/uom-logo.png",
+    logoPath: "/images/logos/uom-logo.png",
+    title: "University of Moratuwa - B.Sc. Electronic & Telecommunication Engineering",
+    date: "Feb 2023 - Present",
     highlights: [
-      "Sri Lanka Institute of Information Technology (SLIIT)",
-      "Grade: 2nd year 2nd semester",
-      "Skills: Python (Programming Language), Microsoft Office, Front-End Development, Problem Solving, PHP, SQL, English, Team Leadership, React.js, Presentations, Back-End Web Development, Information Technology, JavaScript, Kotlin, Machine Learning",
+      "Cumulative GPA: 3.96/4.00 (Dean's List Sem 1-3)",
+      "Specialization: Computer Vision, AI, Machine Learning, Embedded Systems",
+      "Batch Representative (Sem 4-7)",
+      "Key Courses: Digital Signal Processing, Electromagnetics, Pattern Recognition, Image Processing, Robotics, Electronic Instrumentation",
+      "Leadership: Led multiple engineering project teams",
     ],
   },
   {
-    review: "Completed schooling with leadership roles and diverse extracurricular activities, building a strong foundation in problem-solving and teamwork.",
-    imgPath: "/images/richmond.png",
-    logoPath: "/images/logos/richmond.png",
-    title: "Richmond College - Galle",
-    date: "2008 - 2021",
+    review: "Completed Advanced Level with outstanding results in Physical Science stream. Active in leadership roles and extracurricular activities including scouting and sports.",
+    imgPath: "/images/richmond-logo.png",
+    logoPath: "/images/logos/richmond-logo.png",
+    title: "Richmond College, Galle - G.C.E. Advanced Level",
+    date: "2021",
     highlights: [
-      "Grade: 3 to 13",
-      "Activities and societies: President Scout of 2nd Galle Richmond Scout Troop (2020), Treasurer of 2nd Galle Richmond Scout Troop (2020), Member of 2nd Galle Richmond Rover Scouts Troop, Member of Prefect Body (2015-2018), Member of UN Club, Member of Swimming Club (2014 - 2016)",
-      "Skills: Problem Solving, Communication, Team Leadership, Creative Problem Solving",
+      "Physical Science Stream - Z-Score: 2.41 (4A's)",
+      "Senior Prefect & Leadership Roles",
+      "Scout (District Commissioner's Cord)",
+      "Active in various extracurricular activities",
+      "Strong foundation in Mathematics, Physics, and Chemistry",
     ],
   },
 ];
 
 const expLogos = [
-  { name: "sliit", imgPath: "/images/logos/sliit.png" },
-  { name: "richmond", imgPath: "/images/logos/richmond.png" },
+  { name: "uom", imgPath: "/images/logos/uom-logo.png" },
+  { name: "richmond", imgPath: "/images/logos/richmond-logo.png" },
 ];
 
-const testimonials = [
+const projects = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review: "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+    title: "Autonomous Mobile Robot with SLAM",
+    description: "Led a 10-member team to develop an autonomous mobile robot implementing SLAM algorithm in C++. Features LiDAR integration and custom UI for control and diagnostics.",
+    technologies: ["C++", "SLAM", "LiDAR", "Robotics", "Real-time Systems"],
+    category: "robotics",
+    featured: true,
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review: "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+    title: "Sri Lankan Number Plate Recognition System",
+    description: "Built an OCR-based ANPR using OpenCV and PyTesseract supporting batch image processing and real-time webcam recognition.",
+    technologies: ["Python", "OpenCV", "PyTesseract", "Computer Vision", "OCR"],
+    category: "computer-vision",
+    featured: true,
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+    title: "Real-Time Facial Expression Recognition",
+    description: "Developed CNN model trained on FER2013 dataset with batch normalization and dropout regularization. Achieved 86.6% accuracy on happy emotions with live video processing.",
+    technologies: ["Python", "TensorFlow", "CNN", "Computer Vision", "Deep Learning"],
+    category: "ai-ml",
+    featured: true,
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review: "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+    title: "Smart MediBox - IoT Medicine Reminder",
+    description: "ESP32-based embedded system with multi-sensor integration, MQTT connectivity, servo-controlled dispensing, and OLED interface with environmental monitoring.",
+    technologies: ["ESP32", "IoT", "MQTT", "Embedded C", "Sensors", "OLED"],
+    category: "embedded",
+    featured: true,
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review: "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+    title: "Agentic AI Desktop Automation",
+    description: "LLM-powered desktop automation using Ollama/Llama3.2 with computer vision (OCR), PyAutoGUI for screen control, and natural language processing for autonomous task execution.",
+    technologies: ["Python", "LLM", "OCR", "PyAutoGUI", "AI Agents", "Automation"],
+    category: "ai-ml",
+    featured: false,
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review: "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+    title: "Qwen2-0.5B Language Model Fine-Tuning",
+    description: "Fine-tuned LLM using LoRA (4-bit quantization) on Colab, managing end-to-end workflow from preprocessing through deployment.",
+    technologies: ["Python", "LLM", "LoRA", "Fine-tuning", "Google Colab"],
+    category: "ai-ml",
+    featured: false,
   },
 ];
+
+const achievements = [
+  {
+    name: "Dean's List Achievement",
+    mentions: "University of Moratuwa",
+    review: "Consistently maintained exceptional academic performance, earning Dean's List recognition for three consecutive semesters (Sem 1-3) with a cumulative GPA of 3.96/4.00.",
+    imgPath: "/images/deans-list.png",
+  },
+  {
+    name: "AlgoXplore 1.0 CTF Competition",
+    mentions: "2nd Place Winner",
+    review: "Secured 2nd place in AlgoXplore 1.0 CTF Competition (2024), a national cybersecurity logic-based challenge, demonstrating strong problem-solving and cybersecurity skills.",
+    imgPath: "/images/ctf-award.png",
+  },
+  {
+    name: "MoraXtream 9.0 Programming Contest",
+    mentions: "Finalist",
+    review: "Reached finals in MoraXtream 9.0 (2024), a university-level competitive programming contest, showcasing algorithmic thinking and coding expertise.",
+    imgPath: "/images/programming-contest.png",
+  },
+  {
+    name: "Code X Innovation Showcase",
+    mentions: "Finalist",
+    review: "Achieved finalist position in Code X (2025), a coding and innovation showcase event, demonstrating technical innovation and project development skills.",
+    imgPath: "/images/code-x.png",
+  },
+  {
+    name: "Leadership Excellence",
+    mentions: "Multiple Leadership Roles",
+    review: "Served as Batch Representative (Sem 4-7), IR Panelist at AIESEC, Co-lead at IEEE UOM projects, and Senior Prefect at Richmond College, demonstrating consistent leadership abilities.",
+    imgPath: "/images/leadership.png",
+  },
+  {
+    name: "Technical Certifications",
+    mentions: "Industry Recognition",
+    review: "Earned multiple certifications including C++ (SoloLearn), MATLAB Onramp (MathWorks), and AI/ML courses (Coursera), validating technical expertise in key technologies.",
+    imgPath: "/images/certifications.png",
+  },
+];
+
+const testimonials = achievements; // Using achievements as testimonials for now
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-    url: "https://www.instagram.com/___supun_____/",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-    url: "https://www.facebook.com/supun.prabodha.liyanage/",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-    url: "https://www.threads.com/@___supun_____?xmt=AQF0absi7193GbiRxnjFtMwP--vjtnh-xGkZycITmOs70vI",
-  },
-  {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
-    url: "https://www.linkedin.com/in/supun-prabodha-liyanage/?originalSubdomain=lk",
+    url: "https://www.linkedin.com/in/savindu-wickramasinghe/",
+  },
+  {
+    name: "github",
+    imgPath: "/images/github.png",
+    url: "https://github.com/savindu-wickramasinghe",
+  },
+  {
+    name: "email",
+    imgPath: "/images/email.png",
+    url: "mailto:savindudilshan124@gmail.com",
+  },
+  {
+    name: "twitter",
+    imgPath: "/images/x.png",
+    url: "https://twitter.com/savindu_w",
   },
 ];
+
+// Personal Information
+const personalInfo = {
+  name: "Savindu Wickramasinghe",
+  title: "Electronics & Telecommunication Engineering Student",
+  subtitle: "AI/ML Engineer | Computer Vision Expert | Robotics Enthusiast",
+  university: "University of Moratuwa, Sri Lanka",
+  email: "savindudilshan124@gmail.com",
+  phone: "+94 713 359 700",
+  location: "Colombo, Western Province, LK",
+  gpa: "3.96/4.00",
+  summary: "Electronics and Telecommunications Engineering undergraduate specializing in Computer Vision, AI, machine learning, and embedded systems. Passionate about developing innovative solutions and leading teams to bring ideas to life. Experienced in 3D modeling and finding practical, creative approaches to engineering challenges.",
+  areasOfInterest: [
+    "Computer Vision",
+    "Embedded Systems", 
+    "Machine Learning",
+    "AI",
+    "Robotics",
+    "Digital Design"
+  ]
+};
+
+// Contact Information
+const contactInfo = {
+  email: "savindudilshan124@gmail.com",
+  phone: "+94 713 359 700",
+  address: "Colombo, Western Province, Sri Lanka",
+  university: "University of Moratuwa",
+  linkedIn: "https://www.linkedin.com/in/savindu-wickramasinghe/",
+  github: "https://github.com/savindu-wickramasinghe"
+};
 
 export {
   words,
@@ -190,8 +278,12 @@ export {
   expCards,
   expLogos,
   testimonials,
+  achievements,
   socialImgs,
   techStackIcons,
   techStackImgs,
   navLinks,
+  projects,
+  personalInfo,
+  contactInfo,
 };
