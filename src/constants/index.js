@@ -24,32 +24,28 @@ const counterItems = [
 ];
 
 const logoIconsList = [
-  { imgPath: "/images/logos/university-moratuwa.png" },
-  { imgPath: "/images/logos/ieee.png" },
-  { imgPath: "/images/logos/aiesec.png" },
-  { imgPath: "/images/logos/richmond-college.png" },
-  { imgPath: "/images/logos/python.png" },
-  { imgPath: "/images/logos/opencv.png" },
-  { imgPath: "/images/logos/tensorflow.png" },
-  { imgPath: "/images/logos/arduino.png" },
-  { imgPath: "/images/logos/raspberry-pi.png" },
-  { imgPath: "/images/logos/matlab.png" },
-  { imgPath: "/images/logos/solidworks.png" },
+  { imgPath: "/images/logo1.png" },
+  { imgPath: "/images/logo2.png" },
+  { imgPath: "/images/logo3.png" },
+  { imgPath: "/images/jsm-logo.png" },
+  { imgPath: "/images/sliit.png" },
+  { imgPath: "/images/richmond.png" },
+  { imgPath: "/images/devices.png" },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/innovation.png",
+    imgPath: "/images/seo.png",
     title: "Innovation Focus",
     desc: "Developing cutting-edge solutions in AI, robotics, and computer vision with practical applications.",
   },
   {
-    imgPath: "/images/leadership.png",
+    imgPath: "/images/chat.png",
     title: "Leadership Excellence",
     desc: "Leading teams in complex engineering projects and academic initiatives with proven results.",
   },
   {
-    imgPath: "/images/research.png",
+    imgPath: "/images/time.png",
     title: "Research Driven",
     desc: "Conducting thorough research and implementing state-of-the-art technologies in real-world projects.",
   },
@@ -73,23 +69,12 @@ const techStackIcons = [
   // Embedded Systems & Hardware
   { name: "Arduino", category: "embedded", iconClass: "devicon-arduino-plain colored" },
   { name: "Raspberry Pi", category: "embedded", iconClass: "devicon-raspberrypi-plain colored" },
-  { name: "ESP32", category: "embedded", iconClass: "devicon-embeddedc-plain colored" },
-  
-  // Design & CAD
-  { name: "SolidWorks", category: "design", iconClass: "devicon-solidworks-plain colored" },
-  { name: "PCB Design", category: "design", iconClass: "devicon-pcb-plain colored" },
-  { name: "3D Modeling", category: "design", iconClass: "devicon-blender-original colored" },
   
   // Development Tools
   { name: "Git", category: "tools", iconClass: "devicon-git-plain colored" },
   { name: "GitHub", category: "tools", iconClass: "devicon-github-original colored" },
   { name: "VS Code", category: "tools", iconClass: "devicon-vscode-plain colored" },
   { name: "Linux", category: "tools", iconClass: "devicon-linux-plain colored" },
-  { name: "Docker", category: "tools", iconClass: "devicon-docker-plain colored" },
-  
-  // Communication Protocols
-  { name: "MQTT", category: "communication", iconClass: "devicon-mqtt-plain colored" },
-  { name: "IoT", category: "communication", iconClass: "devicon-iot-plain colored" },
 ];
 
 const techStackImgs = []; // Using CDN icons instead
@@ -97,22 +82,22 @@ const techStackImgs = []; // Using CDN icons instead
 const expCards = [
   {
     review: "Pursuing B.Sc. in Electronic & Telecommunication Engineering with exceptional academic performance. Specializing in Computer Vision, AI, Machine Learning, and Embedded Systems.",
-    imgPath: "/images/uom-logo.png",
-    logoPath: "/images/logos/uom-logo.png",
+    imgPath: "/images/sliit.png",
+    logoPath: "/images/sliit.png",
     title: "University of Moratuwa - B.Sc. Electronic & Telecommunication Engineering",
     date: "Feb 2023 - Present",
     highlights: [
       "Cumulative GPA: 3.96/4.00 (Dean's List Sem 1-3)",
       "Specialization: Computer Vision, AI, Machine Learning, Embedded Systems",
       "Batch Representative (Sem 4-7)",
-      "Key Courses: Digital Signal Processing, Electromagnetics, Pattern Recognition, Image Processing, Robotics, Electronic Instrumentation",
+      "Key Courses: Digital Signal Processing, Electromagnetics, Pattern Recognition, Image Processing, Robotics",
       "Leadership: Led multiple engineering project teams",
     ],
   },
   {
     review: "Completed Advanced Level with outstanding results in Physical Science stream. Active in leadership roles and extracurricular activities including scouting and sports.",
-    imgPath: "/images/richmond-logo.png",
-    logoPath: "/images/logos/richmond-logo.png",
+    imgPath: "/images/richmond.png",
+    logoPath: "/images/richmond.png",
     title: "Richmond College, Galle - G.C.E. Advanced Level",
     date: "2021",
     highlights: [
@@ -126,8 +111,8 @@ const expCards = [
 ];
 
 const expLogos = [
-  { name: "uom", imgPath: "/images/logos/uom-logo.png" },
-  { name: "richmond", imgPath: "/images/logos/richmond-logo.png" },
+  { name: "sliit", imgPath: "/images/sliit.png" },
+  { name: "richmond", imgPath: "/images/richmond.png" },
 ];
 
 const projects = [
@@ -137,6 +122,7 @@ const projects = [
     technologies: ["C++", "SLAM", "LiDAR", "Robotics", "Real-time Systems"],
     category: "robotics",
     featured: true,
+    imgPath: "/images/project1.png",
   },
   {
     title: "Sri Lankan Number Plate Recognition System",
@@ -144,6 +130,7 @@ const projects = [
     technologies: ["Python", "OpenCV", "PyTesseract", "Computer Vision", "OCR"],
     category: "computer-vision",
     featured: true,
+    imgPath: "/images/project2.png",
   },
   {
     title: "Real-Time Facial Expression Recognition",
@@ -151,6 +138,7 @@ const projects = [
     technologies: ["Python", "TensorFlow", "CNN", "Computer Vision", "Deep Learning"],
     category: "ai-ml",
     featured: true,
+    imgPath: "/images/project3.png",
   },
   {
     title: "Smart MediBox - IoT Medicine Reminder",
@@ -158,6 +146,7 @@ const projects = [
     technologies: ["ESP32", "IoT", "MQTT", "Embedded C", "Sensors", "OLED"],
     category: "embedded",
     featured: true,
+    imgPath: "/images/exp1.png",
   },
   {
     title: "Agentic AI Desktop Automation",
@@ -165,6 +154,7 @@ const projects = [
     technologies: ["Python", "LLM", "OCR", "PyAutoGUI", "AI Agents", "Automation"],
     category: "ai-ml",
     featured: false,
+    imgPath: "/images/exp2.png",
   },
   {
     title: "Qwen2-0.5B Language Model Fine-Tuning",
@@ -172,6 +162,7 @@ const projects = [
     technologies: ["Python", "LLM", "LoRA", "Fine-tuning", "Google Colab"],
     category: "ai-ml",
     featured: false,
+    imgPath: "/images/exp3.png",
   },
 ];
 
@@ -180,41 +171,78 @@ const achievements = [
     name: "Dean's List Achievement",
     mentions: "University of Moratuwa",
     review: "Consistently maintained exceptional academic performance, earning Dean's List recognition for three consecutive semesters (Sem 1-3) with a cumulative GPA of 3.96/4.00.",
-    imgPath: "/images/deans-list.png",
+    imgPath: "/images/gold-star.png",
   },
   {
     name: "AlgoXplore 1.0 CTF Competition",
     mentions: "2nd Place Winner",
     review: "Secured 2nd place in AlgoXplore 1.0 CTF Competition (2024), a national cybersecurity logic-based challenge, demonstrating strong problem-solving and cybersecurity skills.",
-    imgPath: "/images/ctf-award.png",
+    imgPath: "/images/star.png",
   },
   {
     name: "MoraXtream 9.0 Programming Contest",
     mentions: "Finalist",
     review: "Reached finals in MoraXtream 9.0 (2024), a university-level competitive programming contest, showcasing algorithmic thinking and coding expertise.",
-    imgPath: "/images/programming-contest.png",
+    imgPath: "/images/SFitMarket.png",
   },
   {
     name: "Code X Innovation Showcase",
     mentions: "Finalist",
     review: "Achieved finalist position in Code X (2025), a coding and innovation showcase event, demonstrating technical innovation and project development skills.",
-    imgPath: "/images/code-x.png",
+    imgPath: "/images/VOTE SPHERE.png",
   },
   {
     name: "Leadership Excellence",
     mentions: "Multiple Leadership Roles",
     review: "Served as Batch Representative (Sem 4-7), IR Panelist at AIESEC, Co-lead at IEEE UOM projects, and Senior Prefect at Richmond College, demonstrating consistent leadership abilities.",
-    imgPath: "/images/leadership.png",
+    imgPath: "/images/person.png",
   },
   {
     name: "Technical Certifications",
     mentions: "Industry Recognition",
     review: "Earned multiple certifications including C++ (SoloLearn), MATLAB Onramp (MathWorks), and AI/ML courses (Coursera), validating technical expertise in key technologies.",
-    imgPath: "/images/certifications.png",
+    imgPath: "/images/me.png",
   },
 ];
 
-const testimonials = achievements; // Using achievements as testimonials for now
+const testimonials = [
+  {
+    name: "Dean's List Achievement",
+    mentions: "University of Moratuwa",
+    review: "Consistently maintained exceptional academic performance, earning Dean's List recognition for three consecutive semesters with a cumulative GPA of 3.96/4.00.",
+    imgPath: "/images/client1.png",
+  },
+  {
+    name: "AlgoXplore CTF Winner",
+    mentions: "2nd Place Achievement",
+    review: "Secured 2nd place in AlgoXplore 1.0 CTF Competition (2024), demonstrating strong problem-solving and cybersecurity skills in a national competition.",
+    imgPath: "/images/client2.png",
+  },
+  {
+    name: "Programming Contest Finalist",
+    mentions: "MoraXtream 9.0",
+    review: "Reached finals in MoraXtream 9.0 (2024), showcasing algorithmic thinking and coding expertise in university-level competitive programming.",
+    imgPath: "/images/client3.png",
+  },
+  {
+    name: "Innovation Showcase",
+    mentions: "Code X Finalist",
+    review: "Achieved finalist position in Code X (2025), demonstrating technical innovation and project development skills in coding and innovation showcase.",
+    imgPath: "/images/client4.png",
+  },
+  {
+    name: "Leadership Recognition",
+    mentions: "Multiple Roles",
+    review: "Served as Batch Representative, IR Panelist at AIESEC, Co-lead at IEEE UOM, and Senior Prefect, demonstrating consistent leadership abilities.",
+    imgPath: "/images/client5.png",
+  },
+  {
+    name: "Technical Excellence",
+    mentions: "Industry Certifications",
+    review: "Earned multiple certifications in C++, MATLAB, and AI/ML technologies, validating technical expertise across key engineering domains.",
+    imgPath: "/images/client6.png",
+  },
+];
 
 const socialImgs = [
   {
@@ -224,13 +252,18 @@ const socialImgs = [
   },
   {
     name: "github",
-    imgPath: "/images/github.png",
-    url: "https://github.com/savindu-wickramasinghe",
+    imgPath: "/images/logo1.png", // Using as placeholder for GitHub
+    url: "https://github.com/savidilsh",
   },
   {
-    name: "email",
-    imgPath: "/images/email.png",
-    url: "mailto:savindudilshan124@gmail.com",
+    name: "facebook",
+    imgPath: "/images/fb.png",
+    url: "https://www.facebook.com/savindu.wickramasinghe/",
+  },
+  {
+    name: "instagram",
+    imgPath: "/images/insta.png",
+    url: "https://www.instagram.com/savindu_w/",
   },
   {
     name: "twitter",
@@ -267,7 +300,7 @@ const contactInfo = {
   address: "Colombo, Western Province, Sri Lanka",
   university: "University of Moratuwa",
   linkedIn: "https://www.linkedin.com/in/savindu-wickramasinghe/",
-  github: "https://github.com/savindu-wickramasinghe"
+  github: "https://github.com/savidilsh"
 };
 
 export {
